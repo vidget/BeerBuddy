@@ -1,0 +1,58 @@
+﻿@model BeerBuddy.Models.SaleBeer
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>SaleBeer</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.BarId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.BarId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.BeerId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.BeerId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UserId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.BeerCost)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.BeerCost)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Date)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Date)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.SaleBeerId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

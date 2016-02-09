@@ -12,7 +12,6 @@ namespace BeerBuddy.Models
         [Key] 
         public int BeerId { get; set; }
         public string BeerName { get; set; }
-
         public virtual ICollection<BeerComment> BeerComments { get; set; }
        
          

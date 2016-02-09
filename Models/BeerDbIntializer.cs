@@ -12,10 +12,52 @@ namespace BeerBuddy.Models
         {
             context.Beers.Add(new Beer
             {
-                BeerId = 0,
-                BeerName =""
+                BeerId = 1,
+                BeerName ="Budweiser"
 
             });
+            context.Beers.Add(new Beer
+            {
+                BeerId = 2,
+                BeerName = "Miller"
+
+            });
+            context.Beers.Add(new Beer
+            {
+                BeerId = 3,
+                BeerName = "Labatt"
+
+            });
+            context.Beers.Add(new Beer
+            {
+                BeerId = 4,
+                BeerName = "Pabst"
+
+            });
+            context.Beers.Add(new Beer
+            {
+                BeerId = 5,
+                BeerName = "Coors"
+
+            });
+            context.Beers.Add(new Beer
+            {
+                BeerId = 6,
+                BeerName = "Bell's Oberon"
+
+            });
+
+
+
+
+
+
+
+
+
+
+
+
 
             context.Bars.Add(new Bar 
             {
@@ -24,31 +66,13 @@ namespace BeerBuddy.Models
                 Address = "",
                 City ="",
                 State ="",
-                 
                 ZipCode = "",
                 Phone ="",
                 Rating = 0,
                 UserId = 0
-                 
-                
-
             });
-
-
-
-             
-
-
-
-
-
-
-
             base.Seed(context);
         }
-
-
-
 
     }
 }

@@ -191,6 +191,12 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Images\12199450235_08628af538_o.jpg" />
+    <Content Include="Images\14039718059_6e8a1c9852_b.jpg" />
+    <Content Include="Images\4470699569_b751c19de8_o.jpg" />
+    <Content Include="Images\beer.jpg" />
+    <Content Include="Images\beerMug.png" />
+    <Content Include="Images\cold-beer-drops-freeze.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
